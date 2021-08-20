@@ -39,5 +39,3 @@ def start_command(message):
                     bot.send_message( message.chat.id, "The search has not given any results" )
 
 bot.polling()
-if __name__ == '__main__':
-    start_command()
